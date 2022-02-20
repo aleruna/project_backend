@@ -7,7 +7,7 @@
     <title>Coffe store</title>
 
     <!---Font poppings-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -20,7 +20,7 @@
 
     <header class="header">
       <a href="#" class="logo">
-        <img src="imagen/coffe_icon.png" alt="" width="100" />
+        <img src="imagen/coffee_beans.png" alt="" />
       </a>
 
       <nav class="navbar">
@@ -35,7 +35,22 @@
       <div class="icons">
         <div id="search-btn"><i class="material-icons">search</i></div>
         <div id="cart-btn"><i class="material-icons">add_shopping_cart</i></div>
-        <div id="menu-btn"><i class="material-icons">menu</i></div>
+        <div id="menu-btn" class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search" />
+        <label for="search-box" class="search-btn">
+          <i class="material-icons">search</i>
+        </label>
+      </div>
+
+      <div class="cart-items-contenedor">
+        <div class="cart-items">
+          <span><i class="material-icons">close</i></span>
+        </div>
       </div>
     </header>
 
